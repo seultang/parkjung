@@ -1,22 +1,27 @@
 #include<stdio.h>
+#include<Windows.h>
+
+void gotoxy(int x, int y)
+{
+	COORD pos = { x,y };
+	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
+}
+
+int hd()
+{
+	printf("haha");
+}
+
+int wb()
+{
+	{
+		printf("\033[47m_______________________________________________________________________________________________________________________________");
+		return 0;
+	}
+}
 
 int main()
 {   
-	int i = 0;
-	int j=0;
-	while (j<6)
-	{
-		i = 0;
-		while(i<6)
-		{
-			if(j>=i)
-			{
-				printf("*");
-			}
-			i = i + 1;
-		}
-		printf("\n");
-		j = j + 1;
-	}
+	wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); hd(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb();
 	return 0;
 }
