@@ -17,7 +17,7 @@ int main()
 	int score=80;
 	if (PassOrFail(score))
 	{
-		printf("합격입니다!");
+		printf("합격입니다?");
 	}
 	else
 	{

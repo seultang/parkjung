@@ -15,13 +15,13 @@ int hd()
 int wb()
 {
 	{
-		printf("\033[47m_______________________________________________________________________________________________________________________________");
+		printf("\033[47m                 ");
 		return 0;
 	}
 }
 
 int main()
 {   
-	wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); hd(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb();
+	wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); hd(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); hd(); wb(); wb(); wb(); wb(); wb(); hd(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb(); wb();
 	return 0;
-}
+}       
